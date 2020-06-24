@@ -31,10 +31,10 @@ public class EnvController {
 
         Map<String, String> env = new HashMap<>();
 
-        env.put("PORT", this.port);
-        env.put("MEMORY_LIMIT", this.memory_limit);
-        env.put("CF_INSTANCE_INDEX", this.instance_index);
-        env.put("CF_INSTANCE_ADDR", this.instance_addr);
+        env.put("PORT", port);
+        env.put("MEMORY_LIMIT", memory_limit);
+        env.put("CF_INSTANCE_INDEX", instance_index);
+        env.put("CF_INSTANCE_ADDR", instance_addr);
 
         return env;
     }
